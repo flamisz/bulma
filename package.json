@@ -1,0 +1,17 @@
+{
+  "name": "bulma",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start:dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "dependencies": {
+    "bulma": "^0.7.5"
+  }
+}
